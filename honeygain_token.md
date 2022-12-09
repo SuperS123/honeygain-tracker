@@ -21,3 +21,6 @@ console.log("The above message is your token, it was also copied to your clipboa
 * Copy the value next to JWT
 
 You successfully got your token.
+
+# Is this safe?
+I'm not going to try and sugarcoat it, but this token is something you should not share with anyone. It is direct access into your honeygain account, if an attacker knows what they are doing. However, I can do my best to assure you that this token is only saved on your files and is only ever used to authenticate with API requests as seen in the api.py file. The entirity of the source code is also open source and if you do not trust the .exe version, you can always use manual installation to make sure you're getting exactly what you see on the files.
